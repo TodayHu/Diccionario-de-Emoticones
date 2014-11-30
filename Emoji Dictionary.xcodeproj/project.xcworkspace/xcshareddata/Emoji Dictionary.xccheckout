@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>427B1DAF-EF01-4192-9F77-BD25601380C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Emoji Dictionary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C735C64866EE9E84FFC5B4FBC87A204A3858793</key>
+		<string>https://github.com/Whistler092/Diccionario-de-Emoticones</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Emoji Dictionary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C735C64866EE9E84FFC5B4FBC87A204A3858793</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Whistler092/Diccionario-de-Emoticones</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C735C64866EE9E84FFC5B4FBC87A204A3858793</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C735C64866EE9E84FFC5B4FBC87A204A3858793</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Diccionario-de-Emoticones</string>
+		</dict>
+	</array>
+</dict>
+</plist>

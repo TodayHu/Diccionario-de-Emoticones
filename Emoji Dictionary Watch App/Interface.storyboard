@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Emoji_Dictionary_Watch_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" layout="vertical" id="7Pd-Cq-ueZ">
+                            <items>
+                                <tableRow identifier="EmojiRow" id="jF7-qH-xfQ" customClass="EmojiRow" customModule="Emoji_Dictionary_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Kuq-JJ-JgC">
+                                        <items>
+                                            <label alignment="left" text="😍😍" id="U7k-04-Bqi"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="emojiRowLabel" destination="U7k-04-Bqi" id="bYQ-Ha-L5H"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="table" destination="7Pd-Cq-ueZ" id="ENq-FV-IPf"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--ZoomEmojiController-->
+        <scene sceneID="aYj-JY-ftZ">
+            <objects>
+                <controller identifier="ZoomEmojiController" id="ut7-xB-23M" customClass="ZoomEmojiController" customModule="Emoji_Dictionary_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="100" alignment="left" text="😳" textAlignment="center" id="f8V-sw-c9F"/>
+                        <label width="1" alignment="left" text="Label" textAlignment="center" id="bCn-ee-7cK"/>
+                    </items>
+                    <connections>
+                        <outlet property="definitionLabel" destination="bCn-ee-7cK" id="Ue7-az-cuo"/>
+                        <outlet property="zoomEmojiLabel" destination="f8V-sw-c9F" id="cB5-ib-lSt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="447" y="315"/>
+        </scene>
+    </scenes>
+</document>
